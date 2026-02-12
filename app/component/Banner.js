@@ -10,7 +10,7 @@ import "swiper/css/effect-fade";
 
 const slides = [
   {
-    src: "/banner1.jfif",
+    src: "/banner1.jpg",
     title: "Premium Quality Products",
     subtitle: "Designed to meet your everyday needs with excellence.",
     cta: "Shop Now",

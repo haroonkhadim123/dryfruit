@@ -176,7 +176,7 @@ const filteredProducts =
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/">
-              <Image width={80} height={80} src="/logo.jfif" alt="Logo" />
+              <Image width={80} height={80} src="/logo.jpg" alt="Logo" />
             </Link>
           </div>
 
@@ -297,7 +297,7 @@ const filteredProducts =
 
           <div className="flex justify-center my-4">
             <Link href="/">
-              <Image width={100} height={100} src="/logo.jfif" alt="Logo" />
+              <Image width={100} height={100} src="/logo.jpg" alt="Logo" />
             </Link>
           </div>
 

@@ -46,7 +46,7 @@ const Fotter = () => {
     {/* ================= BRAND ================= */}
     <div>
       <h3 className="text-gray-600 text-2xl font-bold mb-4">
-        <Image width={100} height={100} src={'/logo.jfif'} alt=''></Image>
+        <Image width={100} height={100} src={'/logo.jpg'} alt=''></Image>
       </h3>
       <p className="text-gray-600 text-sm">
        {` Premium dried fruits and healthy snacks crafted for everyday wellness.  
