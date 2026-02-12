@@ -126,7 +126,7 @@ if (!form.image.trim()) {
     <>
       {/* Navbar */}
       <div className="bg-white fixed top-0 left-0 w-full flex items-center justify-center shadow z-40">
-        <Image src="/logo.jfif" width={90} height={40} alt="Logo" />
+        <Image src="/logo.jpg" width={90} height={40} alt="Logo" />
       </div>
       <button
         className="md:hidden fixed top-5 left-4 text-gray-700 text-2xl z-50"
