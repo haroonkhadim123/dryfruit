@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
             className="fixed bottom-20 right-5 z-60 rounded-full cursor-pointer shadow-lg"
             width={80}
             height={80}
-            src="/whatsapp.jfif"
+            src="/whatsapp.jpg"
             alt="Chat on WhatsApp"
           />
         </Link>
