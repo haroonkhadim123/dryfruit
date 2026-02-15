@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+DryFruit E-Commerce Website
 
-## Getting Started
+A modern full-stack e-commerce web application for buying and selling dry fruits online, built with Next.js. This project demonstrates real-world web development practices including server-side rendering, API integration, responsive design, authentication, and smooth UI/UX animations. It is designed to provide a seamless shopping experience for customers and an easy-to-use dashboard for admins.
 
-First, run the development server:
+Features
+User Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Product Catalog: Browse a variety of dry fruits with images, descriptions, and prices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Search & Filter: Easily find products by name, category, or price.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Shopping Cart: Add, remove, and update product quantities.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+User Authentication: Secure login and registration with account management.
 
-## Learn More
+Order History: View past orders and track current orders.
 
-To learn more about Next.js, take a look at the following resources:
+Responsive Design: Optimized for mobile, tablet, and desktop devices.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Smooth Animations: Engaging UI with Framer Motion for a modern experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Admin Features
 
-## Deploy on Vercel
+Dashboard: Manage products, categories, and orders from a single panel.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Product Management: Add, edit, or remove products efficiently.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Order Management: Track and update order status.
+
+Tech Stack
+
+Frontend: Next.js, React, Tailwind CSS, Framer Motion
+
+Backend: Node.js, Express (or Next.js API routes)
+
+Database: MongoDB or MySQL
+
+Authentication: NextAuth.js or JWT-based system
+
+Payment Integration: Ready for Stripe or other payment gateways
+
+Problems Faced & Solutions
+
+Developing a full-stack e-commerce website comes with its challenges. Some of the key problems I faced and how I solved them:
+
+Image Upload and Display Issues
+
+Problem: Product images were not showing correctly on some pages and in production.
+
+Solution: Used Next.js Image component with correct src paths, width and height attributes, and priority for main images.
+
+Authentication and Session Management
+
+Problem: Handling user sessions securely with login, signup, and protected routes.
+
+Solution: Implemented NextAuth.js for authentication and used React hooks to manage session state.
+
+Responsive Layout Challenges
+
+Problem: Some sections were overflowing on smaller screens and horizontal scrollbars appeared.
+
+Solution: Used Tailwind CSS utilities like overflow-x-hidden, flex-wrap, and responsive breakpoints to fix layout issues.
+
+Shopping Cart and State Management
+
+Problem: Cart items were not persisting after page reloads.
+
+Solution: Implemented localStorage along with React state management to persist cart data.
+
+Smooth Animations Without Performance Issues
+
+Problem: Animations caused lag on slower devices.
+
+Solution: Used Framer Motion with optimized transitions and whileInView triggers to reduce performance impact.
+
+Deployment Issues
+
+Problem: Some API routes and images were not working correctly after deploying to Vercel.
+
+Solution: Ensured all environment variables were correctly set and image paths were relative to the /public folder.
+Live Demo:https://dryfruit-five.vercel.app/
+
