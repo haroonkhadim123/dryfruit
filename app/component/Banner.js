@@ -10,26 +10,27 @@ import "swiper/css/effect-fade";
 
 const slides = [
   {
-    src: "/banner1.jpg",
-    title: "Premium Quality Products",
-    subtitle: "Designed to meet your everyday needs with excellence.",
-    cta: "Shop Now",
-    link: "/products",
-  },
-  {
-    src: "/banner2.avif",
-    title: "Modern Design & Style",
-    subtitle: "Clean, elegant and crafted for modern lifestyles.",
-    cta: "Explore Products",
-    link: "/products",
-  },
-  {
-    src: "/banner3.avif",
-    title: "Trusted & Reliable Service",
-    subtitle: "Fast delivery, secure payments, total peace of mind.",
-    cta: "Buy Now",
-    link: "/products",
-  },
+  src: "/banner1.jpg",
+  title: "Premium Quality Dry Fruits",
+  subtitle: "Fresh, healthy, and hand-picked for your daily nutrition.",
+  cta: "Shop Now",
+  link: "/products",
+},
+{
+  src: "/banner2.avif",
+  title: "Nutritious & Delicious",
+  subtitle: "Tasty dry fruits and nuts crafted for a healthy lifestyle.",
+  cta: "Explore Products",
+  link: "/products",
+},
+{
+  src: "/banner3.avif",
+  title: "Trusted & Reliable Service",
+  subtitle: "Fast delivery, secure payments, and 100% satisfaction guaranteed.",
+  cta: "Buy Now",
+  link: "/products",
+},
+
 ];
 
 export default function Banner() {
