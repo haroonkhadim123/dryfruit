@@ -20,7 +20,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const whatsappNumber = "03435121737";
+  const whatsappNumber = "03556560893";
   const defaultMessage = "Hello, I want to inquire about your products.";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
 
